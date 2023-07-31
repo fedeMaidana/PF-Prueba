@@ -7,3 +7,14 @@ function laCajaDePandora(numero){
         return numero.toString(16);
     }
 }
+
+function Mateo (){
+
+    const informacion = {
+        nombre: "Mateo",
+        edad: 20,
+        nacionalidad: "Argentina",
+    };
+
+    return informacion;
+}
