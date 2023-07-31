@@ -1,14 +1,22 @@
 function laCajaDePandora(numero){
     // proximamente escribiremos codigo aqui
-    if (typeof numero !== 'number' || !Number.isInteger(numero)) {
+    if (typeof num !== 'number' || !Number.isInteger(num)) {
         throw new Error('El parámetro debe ser un número entero.');
       }
     
-      if (numero % 2 === 0) {
-        // Es un número par, convertir a binario
-        return num.toString(2);
+      const resultado = {
+        nombre: 'Gustavo Muñiz',
+        nacionalidad: 'Mexicana',
+        edad: 27,
+      };
+    
+      if (num % 2 === 0) {
+        resultado.valorConvertido = num.toString(2);
+        resultado.tipoConversion = 'binario';
       } else {
-        // Es un número impar, convertir a hexadecimal
-        return num.toString(16);
+        resultado.valorConvertido = num.toString(16);
+        resultado.tipoConversion = 'hexadecimal';
       }
+    
+      return resultado;
 }
