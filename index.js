@@ -13,6 +13,13 @@ function alejandro(){
         nacionalidad:"colombiano"
     }
 }
-=======
-    // proximamente escribiremos codigo aqui
+    
+function alejandro(){
+    const resultado = {
+    nombre: 'Gustavo Muñiz',
+    nacionalidad: 'Mexicana',
+    edad: 27,
+  };
+    
+  return resultado;
 }
