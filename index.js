@@ -12,7 +12,32 @@ function federico(){
 
     return obj
 }
-=======
-function laCajaDePandora(numero){
-    // proximamente escribiremos codigo aqui
+
+function Mateo (){
+
+    const informacion = {
+        nombre: "Mateo",
+        edad: 20,
+        nacionalidad: "Argentina",
+    };
+
+    return informacion;
+}
+
+function alejandro(){
+    return{
+        nombre:"alejandro",
+        edad:19,
+        nacionalidad:"colombiano"
     }
+}
+    
+function gustavo(){
+    const resultado = {
+    nombre: 'Gustavo Muñiz',
+    nacionalidad: 'Mexicana',
+    edad: 27,
+  };
+    
+  return resultado;
+}
