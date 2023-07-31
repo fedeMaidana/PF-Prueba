@@ -18,6 +18,21 @@ function Mateo (){
 
     return informacion;
 }
-=======
-    // proximamente escribiremos codigo aqui
+
+function alejandro(){
+    return{
+        nombre:"alejandro",
+        edad:19,
+        nacionalidad:"colombiano"
     }
+}
+    
+function gustavo(){
+    const resultado = {
+    nombre: 'Gustavo Muñiz',
+    nacionalidad: 'Mexicana',
+    edad: 27,
+  };
+    
+  return resultado;
+}
