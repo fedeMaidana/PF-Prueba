@@ -12,3 +12,7 @@ function federico(){
 
     return obj
 }
+=======
+function laCajaDePandora(numero){
+    // proximamente escribiremos codigo aqui
+    }
